@@ -1,0 +1,7 @@
+# Required only if config.py has DB_TYPE = "mysql"
+# (the project runs with zero dependencies when DB_TYPE = "sqlite",
+#  since sqlite3 is part of the Python standard library)
+mysql-connector-python>=8.0
+
+# Required only if config.py has DB_TYPE = "postgresql"
+# psycopg2-binary>=2.9
